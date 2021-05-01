@@ -57,9 +57,9 @@ public class Main {
                 word = reader.next();
                 printMessage(requestedOperation, dictionary.autoSuggest(word));
             default:
-                breakOutOfLoop = true;
-                System.out.println("Thank you for using our dictionary application, exiting . . . . ");
-                break;
+                //breakOutOfLoop = true;
+                //System.out.println("Thank you for using our dictionary application, exiting . . . . ");
+                //break;
             }
         }
         reader.close();
